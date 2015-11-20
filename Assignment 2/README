@@ -1,0 +1,4 @@
+Matrix multiplication 
+1. Compile with g++ std=c++1y -fopenmp matrix_mul.cpp
+
+Due to system storage corruption, I couldn't get the working version of search with producer consumer problem. However, I have the skeleton code and kindly accept this late submission. 
