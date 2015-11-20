@@ -1,0 +1,25 @@
+HW #
+1. You can change the number of rows and columns by changing the NROWS and NCOLUMNS constants.
+Compile using:
+g++ -Wall -fopenmp Hw3_1.cpp
+
+The program outputs the running time of sequential and parallel data computation.
+The program outputs 'No Match' if the outputs don't match.
+
+2.You can change the number of elements in the array by changing the NROWS constant. 
+Compile using:
+g++ -Wall -fopenmp Hw3_2.cpp
+ 
+The program outputs the running time of sequential and parallel insertion sort.
+Since Insertion sort is inherently serial, we use a combination of shell sort and insertion sort to achieve parallelism.
+The program outputs 'No Match' if the outputs don't match.
+
+3.You can change the width of tile by changing the TILE_WIDTH constant. The size of A and B are 1000*10000 and 10000*1000.
+
+Compilation steps:
+$ setup cuda
+$ nvcc Hw3_3.cu -o Hw3_3
+$ ./Hw3_3
+
+The program outputs the running time of sequential and parallel matrix multiplication.
+The program outputs 'No Match' if the outputs don't match.
