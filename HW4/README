@@ -1,0 +1,16 @@
+TO compile:
+
+Convolution: nvcc -o Hw4_1 Hw4_1.cu
+Segmented Scan: nvcc -o Hw4_2 Hw4_2.cu
+
+Performance timings:
+
+Convolution(1000*10000 image)
+Sequential(ms) 			GPU(ms) 		% improvement
+1230.21 				44.90				26.39
+
+
+Segmented Scan(100000 elements)
+Sequential(ms) 			GPU(ms) 		% improvement
+0.31					0.09			    244
+
